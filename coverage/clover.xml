@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1727710275607" clover="3.2.0">
+  <project timestamp="1727710275608" name="All files">
+    <metrics statements="36" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="0" elements="53" coveredelements="0" complexity="0" loc="36" ncloc="36" packages="1" files="2" classes="2"/>
+    <file name="bot.ts" path="/Users/admin/Desktop/me/npm-package/botjs/src/bot.ts">
+      <metrics statements="34" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="51" count="0" type="stmt"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
+      <line num="74" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="76" count="0" type="stmt"/>
+      <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="83" count="0" type="stmt"/>
+    </file>
+    <file name="index.ts" path="/Users/admin/Desktop/me/npm-package/botjs/src/index.ts">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
