@@ -12,7 +12,7 @@ class Bot {
   }
 
   // Helper function for waiting
-  private async wait(ms: number) {
+  async wait(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms))
   }
 
@@ -47,7 +47,7 @@ class Bot {
   }
 
   // Countdown logger
-  private async countdown(ms: number) {
+  async countdown(ms: number) {
     console.log(chalk.yellow(`Waiting for ${ms / 1000} seconds...`))
     const intervalMs = 1000
     for (let i = ms; i > 0; i -= intervalMs) {
@@ -70,7 +70,7 @@ class Bot {
   }
 
   // Helper to create proxy agent based on protocol
-  private createProxyAgent(url: string | undefined) {
+  createProxyAgent(url: string | undefined) {
     if (!this.proxy || !url) return undefined
 
     const isHttps = url.startsWith('https')

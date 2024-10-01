@@ -1,16 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "ESNext",         // Cập nhật về ESNext
+    "module": "ESNext",         // Sử dụng ES Modules
+    "esModuleInterop": true,
     "strict": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@bot/*": ["./*"],
-      "@lib/*": ["src/lib/*"] 
-    }
+    "moduleResolution": "node"  // Sử dụng quy tắc module Node.js
   },
-  "include": ["src", "eslint.config.mjs"],
-  "exclude": ["node_modules", "**/*.test.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }

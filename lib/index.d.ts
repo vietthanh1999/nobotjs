@@ -1,2 +1,2 @@
-import Bot from '@bot/bot';
+import Bot from './bot';
 export { Bot };
